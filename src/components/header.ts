@@ -82,7 +82,7 @@ function renderToggle(toggle, openEntityPopover, toggleEntityChanged) {
         >${toggle.label}
       </span>
       <ha-switch
-        .checked=${toggle.entity?.state === 'on'}
+        .checked=${toggle.entity?.state !== 'off'}
         @change=${toggleEntityChanged}
       ></ha-switch>
     </div>

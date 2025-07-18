@@ -109,7 +109,7 @@ header {
   flex-direction: row;
   align-items: center;
 
-  padding: calc(var(--st-spacing, var(--st-default-spacing)) * 6)
+  padding: calc(var(--st-spacing, var(--st-default-spacing)) * 1)
     calc(var(--st-spacing, var(--st-default-spacing)) * 4)
     calc(var(--st-spacing, var(--st-default-spacing)) * 4);
 }
